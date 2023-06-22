@@ -2,7 +2,7 @@
 
 This is a simple flashcard game implemented in Python using the Tkinter library. The game displays French words on flashcards and allows users to test their knowledge of the corresponding English translations.
 
-![Flashcard Game Screenshot](./screenshot.png)
+![Flashcard Game Screenshot](./screenshot.jpg)
 
 ## Features
 
