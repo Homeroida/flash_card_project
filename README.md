@@ -20,17 +20,17 @@ This is a simple flashcard game implemented in Python using the Tkinter library.
 
 ## Installation and Usage
 
-1. Clone or download this repository.
+1. Clone or download this repository : `git clone https://github.com/Homeroida/flash_card_project.git`
 
-2. Navigate to the project directory.
-
-3. Install the required libraries using pip:
-
-   ```shell
-   pip install pandas
-4. Run the flashcard game script: python flashcard_game.py
-5. The game window will open, and you can start playing by clicking the "wrong" or "right" buttons to indicate your knowledge of the flashcards.
-6. The game will save your progress, and known flashcards will be removed from future rounds. Progress is stored in the words_to_learn.csv file.
+2. Navigate to the project directory : ` cd flash_card_project`
+3. Create a virtual environment: `python -m venv venv`
+4. Activate the virtual environment:
+   - For Windows: `venv\Scripts\activate`
+   - For macOS/Linux: `source venv/bin/activate`
+5. Install the required dependencies: `pip install -r requirements.txt`
+6. Run the flashcard game script: python flashcard_game.py
+7. The game window will open, and you can start playing by clicking the "wrong" or "right" buttons to indicate your knowledge of the flashcards.
+8. The game will save your progress, and known flashcards will be removed from future rounds. Progress is stored in the words_to_learn.csv file.
 
 ## Customize Flashcard Data   
 
